@@ -48,6 +48,8 @@ Mallar för att förstå och representera data.
 |------|-------------|
 | 01_embeddings_search | Semantisk sökning |
 | 02_clustering | Gruppera liknande objekt |
+| 03_dimensionality_reduction | Visualisera högdimensionell data |
+| 04_sentiment_analysis | Analysera känsla i text |
 
 ## Användning
 
