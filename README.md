@@ -30,6 +30,7 @@ Mallar som använder Google Gemini för att generera text, analysera bilder, och
 | 07_image_analyzer | Analysera bilder |
 | 08_simple_agent | AI som utför uppgifter steg-för-steg |
 | 09_pdf_validator | Validera formulär-PDF:er mot schema |
+| 10_mcp_server | MCP-server med verktyg för AI-assistenter |
 
 ### Pred_AI - Prediktiv AI / Machine Learning
 Klassiska ML-modeller för prediktion och klassificering.
