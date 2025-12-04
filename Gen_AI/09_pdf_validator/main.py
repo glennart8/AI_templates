@@ -16,6 +16,13 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 # Skapa modell
 model = genai.GenerativeModel("gemini-2.0-flash")
 
+""" UTVECKLING
+1. Lägg in funktioner för att hämta pdf från mail, sedan läsa, validera och autogenerera mailsvar
+2. Batch-rapport: Validera alla PDF:er och generera en sammanfattande Excel/CSV med status
+3. Webb-gränssnitt: Enkel Streamlit-app där användare kan ladda upp PDF och se resultat direkt
+4. Webhook/notifikation: Skicka Slack/Teams-meddelande när validering är klar
+5. Multi-schema: Stöd för olika formulärtyper (bidrag, faktura, avtal) med dynamiskt val av schema
+"""
 
 def extract_text_from_pdf(pdf_path: str) -> str:
     """Extraherar all text från en PDF-fil."""
